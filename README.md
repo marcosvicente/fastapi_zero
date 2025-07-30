@@ -5,5 +5,12 @@
 Se acessarmos o [localhost:8000/docs](localhost:8000/docs) podemos ver o endpoints da nossa aplicação e testar os requests.
 
 ## O redoc
-Se acessarmos o [localhost:8000/docs](localhost:8000/rdocs) podemos ver o endpoints e suas respostas de forma mais detalhada.
+Se acessarmos o [localhost:8000/redoc](localhost:8000/redoc) podemos ver o endpoints e suas respostas de forma mais detalhada.
 
+# Ruff - linter
+
+Para verificar o linter 
+- ruff check .
+
+Para corrigir automaticamente
+- ruff check . --fix
