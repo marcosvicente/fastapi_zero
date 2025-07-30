@@ -1,2 +1,9 @@
-LINK Videos
+### LINK Videos
 - https://www.youtube.com/watch?v=-Pi5AmOfL2s&list=PLOQgLBuj2-3IuFbt-wJw2p2NiV9WTRzIP&index=2
+
+## Swagger
+Se acessarmos o [localhost:8000/docs](localhost:8000/docs) podemos ver o endpoints da nossa aplicação e testar os requests.
+
+## O redoc
+Se acessarmos o [localhost:8000/docs](localhost:8000/rdocs) podemos ver o endpoints e suas respostas de forma mais detalhada.
+
