@@ -21,6 +21,5 @@ Para corrigir automaticamente
 ## Coverage
 - coverage html
 
-
 ## Generaate task com taskipy - e tipo um alias
 - task run 
