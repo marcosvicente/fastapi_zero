@@ -14,3 +14,9 @@ Para verificar o linter
 
 Para corrigir automaticamente
 - ruff check . --fix
+
+## Pytest
+- pytest --cov=fastapi_zero
+
+## Coverage
+- coverage html

@@ -11,6 +11,12 @@ fastapi = "^0.116.1"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.12.7"
+pytest = "^8.4.1"
+pytest-cov = "^6.2.1"
+
+[tool.pytest.ini_options]
+pythonpath = "."
+addopts = '-p no:warnings'
 
 [tool.ruff]
 line-length = 79
