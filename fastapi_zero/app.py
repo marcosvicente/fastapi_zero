@@ -15,5 +15,13 @@ def read_root():
 
 
 @app.post("/users", status_code=HTTPStatus.CREATED, response_model=UserPublicSchema)
-def read_root(user: UserSchema):
+def create_users(user: UserSchema):
+    return user
+
+# @app.get("/users")
+# def read_users(response_model=UserListSchema):
+#     return { 'users': [] }
+
+@app.put("/users/{user_id}")
+def update_users(user_id: int, user: UserSchema):
     return user

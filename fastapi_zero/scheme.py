@@ -14,3 +14,7 @@ class UserSchema(BaseModel):
 class UserPublicSchema(BaseModel):
     username: str
     email: EmailStr
+
+
+# class UserListSchema(BaseModel):
+#     user = list[UserSchema]
